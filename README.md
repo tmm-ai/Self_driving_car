@@ -16,7 +16,7 @@ sensor and determine where all the obstacles are within a 1-meter radius,
 
 The code in these files only provides self-navigation capabilities. See the requirements to get the modules for simple car operations. 
 
-##Modules Provided
+## Modules Provided
 
 1) Navigation.py is the primary driver of the navigation system and is where the user can adjust the configuration variables, 
 starting on line 363. 
@@ -25,9 +25,7 @@ the A* algorithm to do this.
 3) obj_detection.py is for the camera to identify traffic signs and humans. 
 4) The car maker, SunFounder, provided __init__.py and is included in our code as a convenience to see the functions called from the Navigation.py module easily.
 
-
-
-##Requirements
+## Requirements
 
 The code for basic Sunfounder car functionality, such as driving, turning, and utilizing the ultrasonic sensor, can be found at:
 https://github.com/sunfounder/picar-4wd
@@ -35,7 +33,7 @@ https://github.com/sunfounder/picar-4wd
 How to connect and get started with the pi-camera version 2 can be found here:
 https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/0
 
-##Installation
+## Installation
 
 Once you have the car, follow the instructions to install the raspberry pi OS onto a micro SD, then
 install the Sunfounder car code on the micro SD. You can copy the car code modules in the provided files into the picar-4wd/picar_4wd folder. The provided files will need to be in the same folder as the 
@@ -56,7 +54,7 @@ The car currently scans for humans and traffic signs via the camera. The vehicle
 this scan and stops as needed for humans and stop signs. There are no easily adjustable settings to change this 
 optical scanning at this time. 
 
-##Maintainers
+## Maintainers
 @TomMcOO1 on Twitter
 
 
