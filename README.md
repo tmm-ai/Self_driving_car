@@ -36,8 +36,10 @@ https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/0
 ## Installation
 
 Once you have the car, follow the instructions to install the raspberry pi OS onto a micro SD, then
-install the Sunfounder car code on the micro SD. You can copy the car code modules in the provided files into the picar-4wd/picar_4wd folder. The provided files will need to be in the same folder as the 
-__init__.py module. 
+install the Sunfounder car code on the micro SD. 
+
+The basic car code can be found here:  https://github.com/sunfounder/picar-4wd
+You can copy the car naviation code modules into the picar-4wd/picar_4wd folder. The provided files will need to be in the same folder as the  __init__.py module. 
 
 ## Configuration
 
